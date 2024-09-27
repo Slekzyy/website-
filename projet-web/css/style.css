@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+    background-image: url(iamge.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+#header {
+    position : relative;
+    padding  : 0 2rem;
+}
+
+a{
+    text-decoration: none;
+    color : white;
+    font-size: 1rem;
+}
+
+
+.style{
+    width: 100%;
+    height : 70px;
+    margin : auto;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul , li {
+    list-style : none;
+    justify-content: space-between;
+    color : white;
+    display: flex;
+    margin: 0 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo {
+    color : rgb(255, 217, 0);
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bouton {
+    background-color: rgb(0, 179, 255);
+    color: white;
+    padding : 0.5rem 1rem;
+    border : none;
+    outline : none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title{
+    color : white;
+    height : 100vh;
+    display : flex;
+    align-items: center;
+    padding: 0 10%;
+    text-decoration: none;
+}
+
+.title-bis{
+    max-width: 600px;
+}
+
+.title-bis h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.title-bis h3 {
+    font-size  : 32px;
+    font-weight: 500;
+    color : rgb(255, 217, 0);
+    font-weight: bold;
+}
+
+.title-bis p {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+#footer{
+   border-top: 3px dashed pink;
+   width : 100%;
+   background-color: #24262b;
+   padding: 70px 0;
+}
+
+
+.container{
+    max-width: 1170px;
+    display: flex;
+    margin-left: 250px;
+}
+
+
+.row{
+    width: 25%;
+    padding: 0 20px;
+}
+
+.row h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.row li {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color : #bbbbbb;
+    display: block;
+}
+
+.para{
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.style-bis{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color : #bbbbbb;
+    display: block;
+}
+
